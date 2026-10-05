@@ -7,7 +7,7 @@ def seconds_to_timestamp(seconds: float | int) -> str:
     """Convert seconds into MM:SS or HH:MM:SS."""
     total_seconds = max(0, int(round(float(seconds))))
     hours, remainder = divmod(total_seconds, 3600)
-    # minutes, seconds_value = divmod(remainder, 60)
+    minutes, seconds_value = divmod(remainder, 60)
 
     if hours:
         return f"{hours:02d}:{minutes:02d}:{seconds_value:02d}"
