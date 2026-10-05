@@ -37,7 +37,7 @@ def run_pipeline(source :str, language :str = "english") -> dict:
     return {
         "title": title,
         "transcript": transcript,
-        "timestamped_transcript": timestamped_transcript,
+        # "timestamped_transcript": timestamped_transcript,
         "segments": transcription["segments"],
         "source_file": source_file,
         "summary": summary,
