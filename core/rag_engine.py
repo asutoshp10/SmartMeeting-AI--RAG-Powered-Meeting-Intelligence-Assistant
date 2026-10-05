@@ -7,7 +7,7 @@ from core.citations import format_source_citation, format_timestamp_range
 
 def get_llm():
     return ChatMistralAI(
-        model="mistral-small-latest",
+        model="mistral-small",
         mistral_api_key=os.getenv("MISTRAL_API_KEY"),
         temperature=0.3,
     )
