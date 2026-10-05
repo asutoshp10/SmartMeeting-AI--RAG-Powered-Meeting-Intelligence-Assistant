@@ -7,7 +7,7 @@ SmartMeeting AI is an AI-powered meeting intelligence platform that transforms m
 
 ### Meeting Transcription
 
-* Supports audio and video meeting recordings
+* Supports f audio and video meeting recordings
 * Powered by OpenAI Whisper for accurate speech-to-text conversion
 * Preserves segment-level timestamps for traceable retrieval
 
