@@ -14,7 +14,7 @@ from core.rag_engine import build_rag_chain, ask_question
 def run_pipeline(source :str, language :str = "english") -> dict:
     print("starting AI Video Assistant")
 
-    chunks = process_input(source)
+    # chunks = process_input(source)
     source_file = Path(chunks[0]).stem.rsplit("_chunk_", 1)[0] if chunks else Path(source).name
 
     transcription = transcribe_all_with_segments(chunks,language)
