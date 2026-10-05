@@ -16,7 +16,7 @@ st.set_page_config(
 
 
 APP_CSS = """
-<style>
+# <style>
 :root {
     --bg: #07111f;
     --panel: rgba(9, 18, 32, 0.78);
